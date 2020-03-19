@@ -1,1 +1,92 @@
+body{
+    margin: auto;
+    width: 100%;
+}
+.header{
+    float: initial;
+    text-align: center;
+}
+@media (max-width: 767px){
+    .column{
+        float: left;
+        width: 96.5%;
+        text-align: center;
+        padding: 1%;
+        margin: 0.5%;
+        border: 1px solid black;
+        background-color: lawngreen;
+    }
+    .column3{
+        float: left;
+        width: 96.5%;
+        text-align: center;
+        padding: 1%;
+        margin: 0.5%;
+        border: 1px solid black;
+        background-color: lawngreen;
+    }    
+    .title{
+        float: initial;
+        margin-left: 89%;
+        margin-right: 0px;
+        text-align: center;
+        background-color: white;
+    }
+}
+@media(min-width: 768px ) and (max-width: 991px){
+    .column{
+        float: left;
+        width: 46.6%;
+        text-align: center;
+        padding: 1%;
+        margin: 0.5%;
+        border: 1px solid black;
+        background-color: lawngreen;
+    }
+    .column3{
+        float: left;
+        width: 96.4%;
+        text-align: center;
+        padding: 1%;
+        margin: 0.5%;
+        border: 1px solid black;
+        background-color: lawngreen;
+    }
+        
+    .title{
+        float: initial;
+        margin-left: 89%;
+        margin-right: 0px;
+        text-align: center;
+        background-color: white;
+    }
+}
+
+@media (min-width: 992px){
+    .column{
+        float: left;
+        width: 30.1%;
+        text-align: center;
+        padding: 1%;
+        margin: 0.5%;
+        border: 1px solid black;
+        background-color: lawngreen;
+    }
+    .column3{
+        float: left;
+        width: 30.1%;
+        text-align: center;
+        padding: 1%;
+        margin: 0.5%;
+        border: 1px solid black;
+        background-color: lawngreen;
+    }            
+    .title{
+        float: initial;
+        margin-right: 0px;
+        margin-left: 89%;
+        text-align: center;
+        background-color: white;
+    }
+}
 
